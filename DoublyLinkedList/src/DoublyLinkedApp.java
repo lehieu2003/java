@@ -1,0 +1,53 @@
+class DoublyLinkedApp
+{
+    public static void main(String[] args)
+    {                             // make a new list
+        DoublyLinkedList theList1 = new DoublyLinkedList();
+        theList1.insertLast(4);
+        theList1.insertLast(1);
+        theList1.insertLast(3);
+        theList1.insertLast(6);
+        theList1.insertLast(2);
+        theList1.insertLast(11);
+        theList1.insertLast(10);
+        theList1.bubbleSort();
+        theList1.displayForward();
+
+
+//        DoublyLinkedList theList2 = new DoublyLinkedList();
+//        theList2.insertLast(2);
+//        theList2.insertLast(4);
+//        theList2.insertLast(6);
+//        theList2.insertLast(8);
+//        theList2.insertLast(10);
+//        theList2.displayForward();
+//
+//        DoublyLinkedList mergeList = new DoublyLinkedList();
+//
+//        mergeList.mergeList(theList1,theList2);
+
+//
+//        theList.insertFirst(22);      // insert at front
+//        theList.insertFirst(44);
+//        theList.insertFirst(66);
+//
+//        theList.insertLast(11);       // insert at rear
+//        theList.insertLast(33);
+//        theList.insertLast(55);
+//
+//        theList.displayForward();     // display list forward
+//        theList.displayBackward();    // display list backward
+//
+//        theList.deleteFirst();        // delete first item
+//        theList.deleteLast();         // delete last item
+//        theList.deleteKey(11);        // delete item with key 11
+//
+//        theList.displayForward();     // display list forward
+//
+//        theList.insertAfter(22, 77);  // insert 77 after 22
+//        theList.insertAfter(33, 88);  // insert 88 after 33
+//
+//        theList.displayForward();     // display list forward
+    }  // end main()
+}  // end class DoublyLinkedApp
+////////////////////////////////////////////////////////////////
